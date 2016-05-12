@@ -1,0 +1,48 @@
+1) Input - Number, prime number
+Log Fibonacci takes 0 millisecs even for inputs ~1 billion and more. whereas linear fibonacci takes
+roughly 15 secs to compute f_n%p for input of size 1 billion.
+
+sample console:
+
+Enter the number:
+2398239
+Enter a prime number
+999953
+
+result:124619
+time:44
+result:124619
+time:0
+
+2) Input - randomized array with duplicate elements
+Quick Sort using single pivot takes between 4-5 sec to sort array of input size 10 million,
+whereas using two pivot it takes approx 5 secs to sort the same input which is almost equal but slightly 
+greater than single pivot. For smaller inputs single pivot does better by a fair margin, but as the
+input size increases, the running time of both alogrithms converges though never crosses.
+
+sample console:
+
+//Single Pivot
+Enter size of array:
+10000000
+
+4289
+//Dual Pivot
+Enter the size of the array:
+10000000
+
+4489
+
+3) Input - randomized array with duplicate elements
+Quick Sort sorts the array slightly faster than Merge Sort.
+For input size 10 million
+Quick Sort takes between 4-5 secs
+Merge Sort takes 5 secs.
+
+sample console:
+
+Enter size of array:
+10000000
+
+QuickSort: 4283
+MergeSort: 5170

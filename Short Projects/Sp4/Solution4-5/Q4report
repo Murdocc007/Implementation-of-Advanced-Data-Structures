@@ -1,0 +1,5 @@
+
+For 1M(1000000) nodes the code takes 138ms.
+For 100k(10000) nodes the code takes 21ms.
+
+Used 2 queues for the code, these two queues take care of the height and the depth, we keep on popping one queue and keep adding the child nodes in the other queue. When one gets empty, the roles get reversed, the queue into which we added the node become the popping queue and vice versa for the popping queue.

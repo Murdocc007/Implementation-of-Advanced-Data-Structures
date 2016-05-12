@@ -1,0 +1,11 @@
+To run this code
+
+1. javac *.java
+2. java test <path to the file to be tested>
+
+
+Time taken for method in an array of 1 million numbers(ascending order) for k=100
+
+Quicksort-1138 ms
+HeapSort-7ms
+

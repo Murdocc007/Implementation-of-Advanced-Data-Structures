@@ -1,0 +1,25 @@
+Comparison for permute() between Take 2 and Heap's algorithm for n = 8..14
+
+n=8
+Time taken by take 2 : 24 msec
+Time taken by Heap's : 12 msec
+
+n=10
+Time taken by take 2 : 73 msec
+Time taken by Heap's : 66 msec
+
+n=12
+Time taken by take 2 : 9487 msec
+Time taken by Heap's : 6425 msec
+
+n=13
+Time taken by take 2 : 119486 msec
+Time taken by Heap's : 66447 msec
+
+The trend seems to confirm that for n = 14
+take 2 will have time approx 20 mins
+Heap's will have time approx 7 mins
+
+Tha gap seems to widen as the value of n progresses
+
+

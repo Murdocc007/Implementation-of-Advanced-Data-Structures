@@ -1,0 +1,12 @@
+To run
+
+1. open terminal
+2. javac LP0.java
+3. java LP0 <path to the file>
+
+
+
+Output:
+In the first line you'll see if the path graph is eularian or not
+Second line prints the number of ms to generate the path
+In the third line, you'll see if a path is a valid tour or not  

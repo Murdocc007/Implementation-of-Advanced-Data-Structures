@@ -1,0 +1,18 @@
+To compile the code:
+
+1.javac *.java
+
+
+In order to run the Tree Code (Q4):
+
+
+2. java Tree <depth>
+
+
+
+In order to run the Red Black Tree(insertion)
+
+
+2. java RBT
+
+3. Enter the value of the nodes to be inserted
